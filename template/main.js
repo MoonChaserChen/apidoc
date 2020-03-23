@@ -190,7 +190,8 @@ require([
                         name: entry.name,
                         type: entry.type,
                         version: entry.version,
-                        url: entry.url
+                        url: entry.url,
+                        deprecated: entry.deprecated
                     });
                 } else {
                     nav.push({
@@ -200,7 +201,8 @@ require([
                         name: entry.name,
                         type: entry.type,
                         version: entry.version,
-                        url: entry.url
+                        url: entry.url,
+                        deprecated: entry.deprecated
                     });
                 }
                 oldName = entry.name;
